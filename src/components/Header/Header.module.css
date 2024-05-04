@@ -1,0 +1,22 @@
+.wrapperHeader {
+  background-color: var(--gray-700);
+  padding: 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+}
+
+.wrapperName {
+  font-size: 2rem;
+}
+
+.wrapperName .firstName {
+  color: var(--blue-100);
+  font-weight: bold;
+}
+.wrapperName .secondName {
+  color: var(--purple-400);
+  font-weight: bold;
+}
